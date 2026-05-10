@@ -1,0 +1,185 @@
+.page {
+
+  min-height: 100vh;
+
+  background-color: #0f172a;
+
+  color: white;
+
+  padding: 40px;
+
+  font-family:
+    'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+}
+
+.container {
+
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
+.card {
+
+  background-color: #1e293b;
+
+  border-radius: 18px;
+
+  padding: 25px;
+
+  box-shadow:
+    0 4px 12px rgba(0,0,0,0.3);
+}
+
+.input {
+
+  width: 100%;
+
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background-color: #334155;
+
+  color: white;
+
+  margin-top: 8px;
+
+  margin-bottom: 20px;
+
+  font-size: 16px;
+}
+
+.input::placeholder {
+
+  color: #cbd5e1;
+}
+
+.button {
+
+  padding: 14px 24px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  color: white;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.button:hover {
+
+  transform: translateY(-2px);
+
+  opacity: 0.95;
+}
+
+.blueButton {
+
+  background:
+    linear-gradient(
+      to right,
+      #2563eb,
+      #3b82f6
+    );
+}
+
+.greenButton {
+
+  background:
+    linear-gradient(
+      to right,
+      #059669,
+      #10b981
+    );
+}
+
+.purpleButton {
+
+  background:
+    linear-gradient(
+      to right,
+      #7c3aed,
+      #8b5cf6
+    );
+}
+
+.orangeButton {
+
+  background:
+    linear-gradient(
+      to right,
+      #d97706,
+      #f59e0b
+    );
+}
+
+.title {
+
+  font-size: 42px;
+
+  margin-bottom: 12px;
+}
+
+.subtitle {
+
+  color: #cbd5e1;
+
+  margin-bottom: 30px;
+
+  font-size: 18px;
+}
+
+.grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit,
+    minmax(280px, 1fr));
+
+  gap: 20px;
+}
+
+.centeredForm {
+
+  min-height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  background-color: #0f172a;
+
+  padding: 20px;
+}
+
+.formCard {
+
+  width: 100%;
+
+  max-width: 500px;
+
+  background-color: #1e293b;
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  box-shadow:
+    0 6px 20px rgba(0,0,0,0.4);
+}
