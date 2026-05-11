@@ -77,6 +77,8 @@ Frontend Netlify : https://shamitha-campus-lost-and-found.netlify.app/
 
 Backend Render : https://campus-lost-and-found-ifg7.onrender.com
 
+[The Backend will be a little slow to load, kindly be patient. The Render takes time to start the backend again]
+
 ---
 
 🌟 Future Enhancements
